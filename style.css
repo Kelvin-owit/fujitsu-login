@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex: wrap;
+}
+
+.left-side {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(135deg, #0a4079, #007bff);
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.logo i,
+h5 {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.left-side h1 {
+  font-size: 35px;
+  color: #eee;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.left-side p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.left-side button {
+  width: 150px;
+  font-size: 14px;
+  cursor: pointer;
+  align-items: center;
+  padding: 8px 10px;
+  color: #eee;
+  border-radius: 20px;
+  background-color: transparent;
+  border-color: white;
+}
+
+.right-side {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right-side h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 30px;
+}
+
+.right-side p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons i {
+  color: #007bff;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.icons i:hover {
+  transform: translateY(-5px);
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.input-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #007bff50;
+  border: none;
+  border-radius: 18px;
+  padding: 12px 18px;
+  margin-bottom: 20px;
+}
+
+.input-group i {
+  color: #444;
+  font-weight: 300;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.signup {
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 18px;
+  color: #eee;
+  background-color: #007bff;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
